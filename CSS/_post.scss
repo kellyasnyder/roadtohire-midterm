@@ -1,0 +1,281 @@
+.post {
+    margin: auto;
+
+    .post__heading {
+        margin: auto;
+        margin-top: 60px;
+        width: 767px;
+
+        .post__heading__crumbtrail {
+            margin-left: -37px;
+
+            .post__heading__crumbtrail__li {
+                display: inline;
+                font-family: 'RVMontserrat', sans-serif;
+                font-weight: 500;
+                text-transform: uppercase;
+                font-size: 12px;
+                color: #303F9F;
+                letter-spacing: 0.86px;
+                line-height: 24px;
+
+                &:last-child {
+                    color: #424242;
+                }
+
+                &:last-child::after {
+                    content: none;
+                }
+
+                a:link, a:visited {
+                    color: #303F9F;
+                    text-decoration: none;
+                }
+            }
+
+            .post__heading__crumbtrail__li::after {
+                content: ">";
+                color: #424242;
+                padding-left: 10px;
+                padding-right: 5px;
+            }
+        }
+
+        .post__heading__h1 {
+            font-family: 'RVMontserrat', sans-serif;
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 48px;
+            color: #424242;
+            margin-top: 0;
+        }
+
+        .post__heading__credit {
+            width: 243px;
+            height: 41px;
+
+            .post__heading__icon {
+                height: 36px;
+                margin-right: 15px;
+                float: left;
+            }
+
+            .post__heading__author {
+                padding-top: 8px;
+                margin-top: 20px;
+                font-family: 'RVMontserrat', sans-serif;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 6px;
+                text-transform: uppercase;
+                color: #424242;
+            }
+
+            .post__heading__date {
+                font-family: 'RVMontserrat', sans-serif;
+                font-weight: 400;
+                color: #757575;
+                font-size: 12px;
+                line-height: 6px;
+            }
+        }
+    }
+
+    .post__h2 {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        margin-left: 236px;
+        font-family: Tahoma, 'RVMontserrat', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        color: #424242;
+        line-height: 32px;
+    }
+
+    .post__table-of-contents {
+        margin-left: 236px;
+        width: 931px;
+        
+        .post__table-of-contents__row {
+            width: 100%;
+
+            .post__table-of-contents__content {
+                text-align: left;
+                padding: 0 65px 10px 0;
+                font-family: 'SourceSerifPro';
+                font-size: 16px;
+                color: #3949AB;
+                letter-spacing: 0;
+                line-height: 24px;
+
+                &:nth-child(5) {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+
+    .post__hr {
+        width: 931px;
+        height: 3px;
+        color: #eee;
+        background-color: #eee;
+        border: 0;
+        margin-left: 236px;
+        margin-top: 32px;
+    }
+
+    .post__hero {
+        width: 968px;
+        margin-left: 236px;
+        margin-top: 50px;
+    }
+
+    .post__article {
+        margin-left: 99px;
+
+        .post__article__text {
+            margin-left: 236px;
+            font-family: Georgia;
+            font-size: 21px;
+            color: #333;
+            line-height: 33px;
+            width: 670px;
+        }
+
+        .post__article__link {
+            color: #3949AB;
+        }
+
+        .post__article__table {
+            margin-left: 236px;
+            font-family: Tahoma, sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            border: 1px #ccc solid;
+            border-collapse: collapse;
+            width: 670px;
+            color: #333;
+
+            .post__article__th {
+                text-align: center;
+                border-bottom: 1px #ccc solid;
+                background-color: #f5f5f5;
+                padding: 15px 0px 17px 28px;
+
+                &:last-child {
+                    padding-left: 0;
+                }
+            }
+            
+            .post__article__td1 {
+                border: 1px #ccc solid;
+                padding: 14px 21px 18px 40px;
+            }
+
+            .post__article__td2 {
+                border: 1px #ccc solid;
+                padding: 14px 40px 18px 40px;
+            }
+
+            .post__article__td3 {
+                border: 1px #ccc solid;
+                padding: 14px 43px 18px 40px;
+            }
+
+            .post__article__td4 {
+                border: 1px #ccc solid;
+                padding: 14px 78px 18px 31px;
+            }
+        }
+
+        .post__h3 {
+            margin-top: -18px;
+            margin-left: 236px;
+            font-family: Tahoma;
+            font-weight: 400;
+            font-size: 21px;
+            color: #757575;
+            letter-spacing: 0;
+            line-height: 32px;
+        }
+        
+        .post__article__photo {
+            margin-left: 200px;
+            margin-top: 39px;
+        }
+
+        .post__article__photo__caption {
+            font-family: Tahoma;
+            font-size: 12px;
+            color: #757575;
+            line-height: 24px;
+            margin-left: 471px;
+            margin-top: 9.33px;
+            margin-bottom: 38px;
+        }
+
+        .post__article__quote {
+            margin-left: 256px;
+            padding-bottom: 4px;
+            width: 630px;
+            font-family: Georgia;
+            font-style: italic;
+            font-size: 28px;
+            color: #757575;
+            letter-spacing: 0;
+            line-height: 40px;
+        }
+
+        .post__article__ul {
+            margin-left: 236px;
+
+            .post__article__li {
+                font-family: Georgia;
+                font-size: 21px;
+                color: #333;;
+                line-height: 40px;
+            }
+        }
+
+        .post__article__hr {
+            width: 670px;
+            height: 3px;
+            color: #eee;
+            background-color: #eee;
+            border: 0;
+            margin-left: 236px;
+            margin-top: 43px;
+        }
+
+        .post__article__author {
+            width: 670px;
+            margin-left: 236px;
+            margin-top: 30px;
+            font-family: Georgia;
+            font-style: italic;
+            font-size: 18px;
+            letter-spacing: 0;
+            line-height: 30px;
+
+            .post__article__author--name {
+                color: #3949AB;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .post__other {
+        margin-left: 135px;
+        margin-top: 52px;
+        margin-bottom: 70px;
+
+        .post__other__h4 {
+            font-family: 'RVMontserrat';
+            font-weight: 700;
+            font-size: 24px;
+            color: #424242;
+            line-height: 32px;
+        }
+    }
+}

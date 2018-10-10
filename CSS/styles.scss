@@ -1,0 +1,45 @@
+/* RESET */
+
+@import 'reset';
+
+/* FONT IMPORT */
+
+@import 'fonts';
+
+/* INDEX: HEADER */
+
+@import 'indexheader';
+
+/* INDEX: MAIN */
+
+@import 'indexmain';
+
+/* INDEX: LARGE ARTICLE */
+
+@import 'largearticle';
+
+/* INDEX: SMALL ARTICLES */
+
+@import 'smallarticles';
+
+/* ARTICLE: HEADER */
+
+@import 'articleheader';
+
+/* ARTICLE: POST */
+
+@import 'post';
+
+/* FOOTER */
+
+@import 'footer';
+
+/* UNIVERSAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}

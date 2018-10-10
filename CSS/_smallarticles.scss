@@ -1,0 +1,98 @@
+.small-article {
+    width: 1170px;
+    margin-top: 30px;
+    margin-left: 135px;
+
+    .small-article__row {
+        display: flex;
+        flex-flow: row wrap;
+        flex: 33%;
+    }
+
+    .small-article__box {
+        width: 370px;
+        height: 549px;
+        box-shadow: 0 0 45px #ccc;
+        margin-bottom: 30px;
+        margin-right: 30px;
+        position: relative;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        .small-article__box__content {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 14px;
+            line-height: 19px; 
+            margin: 0 22px 0 30px;
+            padding-bottom: 12px;
+        }
+
+        .small-article__box__img {
+            margin: 30px;
+        }
+
+        .small-article__box--button {
+            padding: 0 20.5px 0 20.5px;
+            height: 25px;
+            border: 1px solid #3949AB;
+            border-radius: 25px;
+            background-color: #fff;
+            color: #3949AB;
+            font-family: 'RVMontserrat', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin: 0 0 16px 30px;
+        }
+
+        .small-article__box__title {
+            font-family: 'RVMontserrat', sans-serif;
+            color: #424242;
+            font-weight: 500;
+            font-size: 26px;
+            margin: 0 31px 10px 31px;
+        }
+
+        .small-article__box__footer {
+            height: 91px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        
+            .small-article__footer__hr {
+                width: 100%;
+                opacity: 0.2;
+                height: 1px;
+                background-color: #ccc;
+                margin-bottom: 0;
+            }
+
+            .small-article__footer__icon {
+                height: 36px;
+                margin: 20px 15px 20px 31px;
+                float: left;
+            }
+
+            .small-article__footer__author {
+                margin-top: 28px;
+                font-family: 'RVMontserrat', sans-serif;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 6px;
+                text-transform: uppercase;
+                color: #424242;
+            }
+
+            .small-article__footer__date {
+                font-family: 'RVMontserrat', sans-serif;
+                font-weight: 400;
+                color: #757575;
+                font-size: 12px;
+                line-height: 6px;
+            }
+        }
+    }
+}

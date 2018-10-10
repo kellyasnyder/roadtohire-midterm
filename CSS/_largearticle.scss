@@ -1,0 +1,87 @@
+.large-article {
+    padding-top: 30px;
+    margin-left: 135px;
+    width: 1170px;
+    box-shadow: 0 0 45px #ccc;
+
+    .large-article__field {
+        width: 1098px;
+        margin: 0 30px;
+        background-image: url(../images/largearticle.png);
+        background-repeat: no-repeat;
+
+        .large-article__field__text {
+            margin-left: 490px;
+            width: 608px;
+            padding-bottom: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 18px;
+            line-height: 30px;
+
+            .large-article__field__icon {
+                height: 36px;
+                margin-top: 20px;
+                margin-right: 15px;
+                float: left;
+            }
+
+            .large-article__field__author {
+                margin-top: 37px;
+            }
+
+            .large-article__field__author {
+                font-family: 'RVMontserrat', sans-serif;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 6px;
+                text-transform: uppercase;
+                color: #424242;
+            }
+
+            .large-article__field__date {
+                font-family: 'RVMontserrat', sans-serif;
+                font-weight: 400;
+                color: #757575;
+                font-size: 12px;
+                line-height: 6px;
+            }
+
+            .large-article__field--button {
+                width: 92px;
+                height: 25px;
+                border: 1px solid #3949AB;
+                border-radius: 25px;
+                background-color: #fff;
+                color: #3949AB;
+                font-family: 'RVMontserrat', sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+                text-transform: uppercase;
+                margin-top: 30px;
+            }
+
+            .large-article__field__h2 {
+                margin-top: 20px;
+                font-family: 'RVMontserrat', sans-serif;
+                color: #424242;
+                font-weight: 700;
+                font-size: 42px;
+                line-height: 50px;
+
+                a:link, a:visited {
+                    color: #424242;
+                    text-decoration: none;
+                    transition: color 0.2s ease;
+                } 
+            }
+
+            .large-article__field__hr {
+                width: 620px;
+                height: 1px;
+                background-color: #ccc;
+                opacity: 0.2;
+                margin-top: 48px;
+            }
+        }
+    }
+}
